@@ -34,6 +34,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.btnBuscador = new System.Windows.Forms.Button();
+            this.txtNumero = new System.Windows.Forms.TextBox();
+            this.lblIndice = new System.Windows.Forms.Label();
+            this.btnMasVeces = new System.Windows.Forms.Button();
+            this.lblNumeroRepetido = new System.Windows.Forms.Label();
+            this.lblVecesQueSeRepite = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnVectormayor
@@ -94,11 +100,71 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "label3";
             // 
+            // btnBuscador
+            // 
+            this.btnBuscador.Location = new System.Drawing.Point(44, 249);
+            this.btnBuscador.Name = "btnBuscador";
+            this.btnBuscador.Size = new System.Drawing.Size(75, 23);
+            this.btnBuscador.TabIndex = 6;
+            this.btnBuscador.Text = "button2";
+            this.btnBuscador.UseVisualStyleBackColor = true;
+            this.btnBuscador.Click += new System.EventHandler(this.BtnBuscador_Click);
+            // 
+            // txtNumero
+            // 
+            this.txtNumero.Location = new System.Drawing.Point(174, 251);
+            this.txtNumero.Name = "txtNumero";
+            this.txtNumero.Size = new System.Drawing.Size(100, 20);
+            this.txtNumero.TabIndex = 7;
+            // 
+            // lblIndice
+            // 
+            this.lblIndice.AutoSize = true;
+            this.lblIndice.Location = new System.Drawing.Point(322, 254);
+            this.lblIndice.Name = "lblIndice";
+            this.lblIndice.Size = new System.Drawing.Size(35, 13);
+            this.lblIndice.TabIndex = 8;
+            this.lblIndice.Text = "label4";
+            // 
+            // btnMasVeces
+            // 
+            this.btnMasVeces.Location = new System.Drawing.Point(27, 294);
+            this.btnMasVeces.Name = "btnMasVeces";
+            this.btnMasVeces.Size = new System.Drawing.Size(107, 45);
+            this.btnMasVeces.TabIndex = 9;
+            this.btnMasVeces.Text = "button2";
+            this.btnMasVeces.UseVisualStyleBackColor = true;
+            this.btnMasVeces.Click += new System.EventHandler(this.BtnMasVeces_Click);
+            // 
+            // lblNumeroRepetido
+            // 
+            this.lblNumeroRepetido.AutoSize = true;
+            this.lblNumeroRepetido.Location = new System.Drawing.Point(201, 294);
+            this.lblNumeroRepetido.Name = "lblNumeroRepetido";
+            this.lblNumeroRepetido.Size = new System.Drawing.Size(44, 13);
+            this.lblNumeroRepetido.TabIndex = 10;
+            this.lblNumeroRepetido.Text = "Numero";
+            // 
+            // lblVecesQueSeRepite
+            // 
+            this.lblVecesQueSeRepite.AutoSize = true;
+            this.lblVecesQueSeRepite.Location = new System.Drawing.Point(201, 326);
+            this.lblVecesQueSeRepite.Name = "lblVecesQueSeRepite";
+            this.lblVecesQueSeRepite.Size = new System.Drawing.Size(100, 13);
+            this.lblVecesQueSeRepite.TabIndex = 11;
+            this.lblVecesQueSeRepite.Text = "veces que se repite";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(451, 312);
+            this.ClientSize = new System.Drawing.Size(451, 360);
+            this.Controls.Add(this.lblVecesQueSeRepite);
+            this.Controls.Add(this.lblNumeroRepetido);
+            this.Controls.Add(this.btnMasVeces);
+            this.Controls.Add(this.lblIndice);
+            this.Controls.Add(this.txtNumero);
+            this.Controls.Add(this.btnBuscador);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
@@ -107,6 +173,7 @@
             this.Controls.Add(this.btnVectormayor);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -120,6 +187,12 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btnBuscador;
+        private System.Windows.Forms.TextBox txtNumero;
+        private System.Windows.Forms.Label lblIndice;
+        private System.Windows.Forms.Button btnMasVeces;
+        private System.Windows.Forms.Label lblNumeroRepetido;
+        private System.Windows.Forms.Label lblVecesQueSeRepite;
     }
 }
 

@@ -8,3 +8,13 @@ C:\Users\Usuario\source\repos\PruebasConVector\PruebasConVector\obj\Debug\Prueba
 C:\Users\Usuario\source\repos\PruebasConVector\PruebasConVector\obj\Debug\PruebasConVector.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\source\repos\PruebasConVector\PruebasConVector\obj\Debug\PruebasConVector.exe
 C:\Users\Usuario\source\repos\PruebasConVector\PruebasConVector\obj\Debug\PruebasConVector.pdb
+C:\Users\Usuario\Documents\GitHub\pruebasVector\PruebasConVector\bin\Debug\PruebasConVector.exe.config
+C:\Users\Usuario\Documents\GitHub\pruebasVector\PruebasConVector\bin\Debug\PruebasConVector.exe
+C:\Users\Usuario\Documents\GitHub\pruebasVector\PruebasConVector\bin\Debug\PruebasConVector.pdb
+C:\Users\Usuario\Documents\GitHub\pruebasVector\PruebasConVector\obj\Debug\PruebasConVector.csprojAssemblyReference.cache
+C:\Users\Usuario\Documents\GitHub\pruebasVector\PruebasConVector\obj\Debug\PruebasConVector.Form1.resources
+C:\Users\Usuario\Documents\GitHub\pruebasVector\PruebasConVector\obj\Debug\PruebasConVector.Properties.Resources.resources
+C:\Users\Usuario\Documents\GitHub\pruebasVector\PruebasConVector\obj\Debug\PruebasConVector.csproj.GenerateResource.cache
+C:\Users\Usuario\Documents\GitHub\pruebasVector\PruebasConVector\obj\Debug\PruebasConVector.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\GitHub\pruebasVector\PruebasConVector\obj\Debug\PruebasConVector.exe
+C:\Users\Usuario\Documents\GitHub\pruebasVector\PruebasConVector\obj\Debug\PruebasConVector.pdb

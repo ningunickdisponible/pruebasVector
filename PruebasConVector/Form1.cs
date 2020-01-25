@@ -113,5 +113,72 @@ namespace PruebasConVector
             bubbleSort(ref vecFaltanteUno);
             Cursor.Current = Cursors.Default;
         }
+
+        private void BtnBuscador_Click(object sender, EventArgs e)
+        {
+            int[] vec = randomVector();
+            int indice = -1;
+            int numeroingesado = int.Parse(txtNumero.Text);
+            for (int x = 0; x < vec.Length; x++)
+            {
+                Console.WriteLine(vec[x]);
+                if (numeroingesado == vec[x])
+                {
+                    indice = x;
+                }
+
+            }
+            lblIndice.Text = indice.ToString();
+        }
+
+        private void BtnMasVeces_Click(object sender, EventArgs e)
+        {
+            int[] vecNumeros = new int[] { 2, 2, 4, 5, 2, 0, 8, 6, 7, 5, 6,6,6,22,22,22,22,22,22,22,22 };
+            int veces = 0;
+            int numeroMasRepetido = 0;
+            int numeroEvaluado = 0;
+            int VecesTmp = 0; //contador
+
+            for (int x = 0; x < vecNumeros.Length; x++)
+            {
+                numeroEvaluado = vecNumeros[x];
+                for (int y = 0; y < vecNumeros.Length; y++)
+                {
+
+                    if (numeroEvaluado == vecNumeros[y])
+                    {    
+                        VecesTmp = VecesTmp + 1 ;
+                    }
+                }
+                if (VecesTmp > veces)
+                {
+                    veces = VecesTmp;
+                    numeroMasRepetido = numeroEvaluado;
+                }
+                VecesTmp = 0; 
+            }
+            lblNumeroRepetido.Text = numeroMasRepetido.ToString();
+            lblVecesQueSeRepite.Text = veces.ToString();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            int contador = 0;
+            int[,] matriz = new int[3,3];
+            matriz[0, 0] = 1;
+            matriz[1, 1] = 1;
+            matriz[2, 2] = 1;
+            for (int x = 0; x < matriz.GetLength(0); x++)
+            {
+                string fila = "";
+                for (int y = 0; y < matriz.GetLength(1); y++)
+                {
+                    
+                    fila = fila + matriz[x,y] + " ";
+                }
+                Console.WriteLine(fila + "\n");
+            }
+
+        }
     }
 }
